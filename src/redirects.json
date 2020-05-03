@@ -1,14 +1,6 @@
 [
   {
-    "slug": "s",
-    "destination": "https://markadkins.design"
-  },
-  {
-    "slug": "",
-    "destination": "https://markadkins.design"
-  },
-  {
-    "slug": "",
-    "destination": "https://markadkins.design"
+    "slug": "/google",
+    "destination": "https://google.com"
   }
 ]
