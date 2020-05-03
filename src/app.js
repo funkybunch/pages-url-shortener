@@ -34,10 +34,10 @@ for(let i = 0; i < redirects.length; i++) {
 }
 
 if(!redirected) {
+    setDestination(passthrough + slug);
     if(!consoleMode) {
         goNow();
     }
-    setDestination(passthrough + slug);
     console.log("redirect: ", "passthrough");
     console.log(passthrough);
 }
