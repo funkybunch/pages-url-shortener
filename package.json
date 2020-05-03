@@ -12,7 +12,7 @@
     "url": "git+https://github.com/funkybunch/pages-url-shortener.git"
   },
   "author": "Mark Adkins <mark@bymark.co> (https://markadkins.design)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/funkybunch/pages-url-shortener/issues"
   },
