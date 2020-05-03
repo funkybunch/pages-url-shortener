@@ -2,5 +2,13 @@
   {
     "slug": "/google",
     "destination": "https://google.com"
+  },
+  {
+    "slug": "/yahoo",
+    "destination": "https://yahoo.com"
+  },
+  {
+    "slug": "/bing",
+    "destination": "https://bing.com"
   }
 ]
