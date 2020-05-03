@@ -18,6 +18,7 @@ module.exports = env => {
             new webpack.EnvironmentPlugin(['PASSTHROUGH']),
             new CopyPlugin([
                 { from: './index.html', to: '../404.html' },
+                { from: './src/ma_logo.svg', to: 'ma_logo.svg' },
             ]),
         ],
     }
