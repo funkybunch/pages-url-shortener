@@ -1,10 +1,14 @@
 [
   {
-    "slug": "/s",
-    "destination": "https://markadkins.design"
+    "slug": "/google",
+    "destination": "https://google.com"
   },
   {
-    "slug": "/twitter",
-    "destination": "https://twitter.com/markadkn"
+    "slug": "/yahoo",
+    "destination": "https://yahoo.com"
+  },
+  {
+    "slug": "/bing",
+    "destination": "https://bing.com"
   }
 ]
