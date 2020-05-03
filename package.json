@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/funkybunch/pages-url-shortener#readme",
   "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
     "dotenv": "^8.2.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"

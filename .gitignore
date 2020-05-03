@@ -107,3 +107,4 @@ dist
 .iml
 dist/
 src/redirects.json
+404.html

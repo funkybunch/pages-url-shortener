@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const CopyPlugin = require('copy-webpack-plugin');
 const env = require('dotenv').config();
 
 module.exports = env => {
@@ -14,7 +15,10 @@ module.exports = env => {
             path: path.resolve(__dirname, 'dist'),
         },
         plugins:[
-            new webpack.EnvironmentPlugin(['PASSTHROUGH'])
+            new webpack.EnvironmentPlugin(['PASSTHROUGH']),
+            new CopyPlugin([
+                { from: './index.html', to: '../404.html' },
+            ]),
         ],
     }
 };
