@@ -18,7 +18,9 @@ function setDestination(value){
 
 function goNow() {
     console.log("Redirect triggered");
-    window.location.replace(destination);
+    setTimeout(function () {
+        window.location.replace(destination);
+    }, 1000);
 }
 
 for(let i = 0; i < redirects.length; i++) {
