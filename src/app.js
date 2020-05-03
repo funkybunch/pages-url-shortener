@@ -4,7 +4,7 @@ let passthrough = process.env.PASSTHROUGH;
 let slug = window.location.pathname;
 
 // Use console mode to prevent redirects during development.
-let consoleMode = true;
+let consoleMode = false;
 
 let redirected = false;
 
