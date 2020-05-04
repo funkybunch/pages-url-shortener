@@ -24,7 +24,7 @@ function goNow() {
 }
 
 for(let i = 0; i < redirects.length; i++) {
-    if(redirects[i].slug === slug || redirects[i].slug === slug  + "/") {
+    if(redirects[i].slug === slug || redirects[i].slug === (slug + "/")) {
         redirected = true;
         setDestination(redirects[i].destination);
         console.log("redirect: ", true);
