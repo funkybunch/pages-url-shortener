@@ -28,7 +28,8 @@ for(let i = 0; i < redirects.length; i++) {
         redirected = true;
         setDestination(redirects[i].destination);
         console.log("redirect: ", true);
-        console.log(slug);
+        console.log("url:", slug);
+        console.log("location:", redirects[i].destination);
         if(!consoleMode) {
             goNow();
         }
@@ -41,5 +42,7 @@ if(!redirected) {
         goNow();
     }
     console.log("redirect: ", "passthrough");
+    console.log("url:", slug);
+    console.log("location:", passthrough + slug);
     console.log(passthrough);
 }
